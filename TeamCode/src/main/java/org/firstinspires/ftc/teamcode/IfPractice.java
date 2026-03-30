@@ -29,7 +29,7 @@ public class IfPractice extends OpMode {
 
 AND - &&  if(leftY < 0.5 && leftY > 0)
 OR - ||   if(leftY < 0 || rightY < 0)
-NOT - !   if(!clawClosed
+NOT - !   if(!clawClosed)
 
 
  */
