@@ -40,7 +40,7 @@ public class RobotLocationPractice {
     }
 
     public void changeX(double changeAmount) {
-        x += changeAmount
+        x += changeAmount;
     }
 
     public void setX(double x) {
