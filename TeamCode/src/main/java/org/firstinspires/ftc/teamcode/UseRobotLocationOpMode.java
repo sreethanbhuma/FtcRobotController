@@ -28,8 +28,8 @@ public class UseRobotLocationOpMode extends OpMode {
         else if (gamepad1.dpad_right) {
             robotLocationPractice.changeX(-0.1);
         }
-        telemetry.addData("Heading", robotLocationPractice.getHeading);
+        telemetry.addData("Heading", robotLocationPractice.getHeading());
         telemetry.addData("Angle", robotLocationPractice.getAngle());
-        telemetry.addData("X value", robotLocationPractice.getX);
+        telemetry.addData("X value", robotLocationPractice.getX());
     }
 }
