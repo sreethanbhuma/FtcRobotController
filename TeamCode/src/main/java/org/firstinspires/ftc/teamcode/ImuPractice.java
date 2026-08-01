@@ -9,7 +9,7 @@ import org.firstinspires.ftc.teamcode.mechanisms.TestBenchIMU;
 @TeleOp
 public class ImuPractice extends OpMode {
     TestBenchIMU bench = new TestBenchIMU();
-    double heading;
+
 
     @Override
     public void init() {

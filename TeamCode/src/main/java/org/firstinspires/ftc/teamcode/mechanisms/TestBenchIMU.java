@@ -14,6 +14,7 @@ public class TestBenchIMU {
 
     public void init(HardwareMap hwMap) {
         imu = hwMap.get(IMU.class, "imu");
+        Object RevHubOrientationOnRobot;
         motor = hwMap.get(DcMotor.class, "motor"),
 
         RevHubOrientationOnRobot RevOrientation = new RevHubOrientationOnRobot(RevHubOrientationOnRobot.LogoFacingDirection.UP,
