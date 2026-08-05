@@ -9,13 +9,13 @@ import org.firstinspires.ftc.teamcode.mechanisms.AarushHelper;
 import org.firstinspires.ftc.teamcode.mechanisms.AarushHelper;
 
 @TeleOp
-class AarushCode extends OpMode {
+public class AarushCode extends OpMode {
 
     // =========================================================================
     // 1. HARDWARE & HELPER INSTANCES
     // =========================================================================
     private Limelight3A limelight;
-    private final AarushHelper helper = new AarushHelper();
+    public final AarushHelper helper = new AarushHelper();
 
     // =========================================================================
     // 2. TUNING & CONFIGURATION VARIABLES
